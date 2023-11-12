@@ -15,11 +15,9 @@ a { /*delete underline from navBar items*/
   height: 100vh;
   position: relative;
   text-align: center;
-  padding: 0 2em;
-  width: 96vw;
-  margin-left: -1vw;
+  width: 100%;
 }
-/*NavBar*/
+/*Main NavBar Styles*/
 .logo {
   width: 100px;
   height: auto;
@@ -64,6 +62,7 @@ a { /*delete underline from navBar items*/
   background-color: #6D966B;
   color: #FFF9E9;
 }
+/*MenuButton Styles*/
 .menuButton {
   visibility: hidden;
   cursor: pointer;
@@ -77,6 +76,7 @@ a { /*delete underline from navBar items*/
   margin: 6px 0;
   transition: 0.4s;
 }
+/*Cellphone NavBar Styles*/
 .sidebar {
   display: none;
   position: fixed;
@@ -105,6 +105,7 @@ a { /*delete underline from navBar items*/
   font-size: 20px;
 }
 
+/*Resposive for devices with a width of 600px or less*/
 @media screen and (max-width: 600px) {
   .navBarContent {
     display: none;
@@ -124,5 +125,7 @@ a { /*delete underline from navBar items*/
 
   .sidebar.active .navBarContent {
     display: flex;
+  }
+  .landingPage{
   }
 }
