@@ -1,4 +1,4 @@
-body {
+body { /*defoult settings for all the body*/
   background-color: #FFF9E9;
   margin: 0; 
   font-family: 'Montserrat-Black', sans-serif;
@@ -125,7 +125,5 @@ a { /*delete underline from navBar items*/
 
   .sidebar.active .navBarContent {
     display: flex;
-  }
-  .landingPage{
   }
 }
