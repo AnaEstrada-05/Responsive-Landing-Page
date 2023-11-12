@@ -1,0 +1,128 @@
+body {
+  background-color: #FFF9E9;
+  margin: 0; 
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+a { /*delete underline from navBar items*/
+  text-decoration: none;
+}
+.landingPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  padding: 0 2em;
+  width: 96vw;
+  margin-left: -1vw;
+}
+/*NavBar*/
+.logo {
+  width: 100px;
+  height: auto;
+  position: inherit;
+}
+.navBar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+  justify-content: space-between;
+  background-color: #FFF9E9;
+}
+.navBarContent {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  align-items: center;
+  margin-right: 4vw;
+}
+.navBarItem{
+  color: #6D966B;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-weight: 900;
+  font-size: 15px;
+  padding: 3vw;
+}
+.navBarItem:hover {
+  color: #402C1A;
+  transition: all 0.5s ease;
+}
+.contact{
+  border:2px solid #6D966B;
+  border-radius: 20px;
+  transition:.3s all;
+  padding: 10px;
+}
+.contact:hover{
+  background-color: #6D966B;
+  color: #FFF9E9;
+}
+.menuButton {
+  visibility: hidden;
+  cursor: pointer;
+  position: fixed;
+  right: 0px;
+}
+.barMenu { 
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF9E9;
+  z-index: 10;
+  flex-direction: column;
+}
+
+.sidebar.active {
+  display: flex;
+}
+
+.sidebar .navBarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20vw;
+}
+
+.sidebar .navBarItem {
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .navBarContent {
+    display: none;
+  }
+
+  .menuButton {
+    visibility: visible;
+    width: 100px;
+    margin-top: 25px;
+    margin-right: -40px;
+    position: inherit;
+  }
+
+  .sidebar .navBarContent {
+    justify-content: center;
+  }
+
+  .sidebar.active .navBarContent {
+    display: flex;
+  }
+}
