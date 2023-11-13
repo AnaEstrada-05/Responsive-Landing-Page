@@ -1,0 +1,32 @@
+.recipiesPage{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.navBar{
+  background-color: grey!important;
+}
+.navBarItem{
+  color: white!important;
+}
+.contact{
+  border-color: white!important;
+}
+.contact:hover{
+  background-color: white!important;
+  color: grey!important;
+}
+.sidebar {
+  background-color: black!important;
+  color: white!important;
+}
+.barMenu{
+  background-color: white!important;
+}
