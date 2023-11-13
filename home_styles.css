@@ -7,6 +7,7 @@ body { /*defoult settings for all the body*/
 a { /*delete underline from navBar items*/
   text-decoration: none;
 }
+/*Landing Page styles*/
 .landingPage{
   display: flex;
   flex-direction: column;
