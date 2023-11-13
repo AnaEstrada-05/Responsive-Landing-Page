@@ -3,6 +3,7 @@
 <head>
   <title>Landing Page Prueba</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="recipies_styles.css">
   <link rel="stylesheet" type="text/css" href="home_styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="home.js"></script>
@@ -11,12 +12,12 @@
   <!--Main NavBar code-->
   <div class="navBar">
     <a href="home.html">
-      <img src="logo_sinFondo.png" alt="Logo" class="logo">
+      <img src="logo_sinFondoBlanco.png" alt="Logo" class="logo">
     </a>
     <div class="navBarContent">
       <a class="navBarItem home" href="home.html" onclick="closeNavBar()">ABOUT</a>
       <a class="navBarItem about" href="recipies.html" onclick="closeNavBar()">RECIPIES</a>
-      <a class="navBarItem other" href="#other" onclick="closeNavBar()">MY RECIPIES</a>
+      <a class="navBarItem other" href="myRecipies.html" onclick="closeNavBar()">MY RECIPIES</a>
       <a class="navBarItem contact" href="#contact" onclick="closeNavBar()">CONTACT</a>
     </div>
     <div class="menuButton" onclick="toggleNavBar()">
@@ -27,12 +28,12 @@
     <!--Responsive (cellphones) NavBar code-->
     <div class="sidebar">
       <a href="home.html">
-        <img src="logo_sinFondo.png" alt="Logo" class="logo">
+        <img src="logo_sinFondoBlanco.png" alt="Logo" class="logo">
       </a>
       <div class="navBarContent">
         <a class="navBarItem home" href="home.html" onclick="closeNavBar()">ABOUT</a>
       <a class="navBarItem about" href="recipies.html" onclick="closeNavBar()">RECIPIES</a>
-      <a class="navBarItem other" href="#other" onclick="closeNavBar()">MY RECIPIES</a>
+      <a class="navBarItem other" href="myRecipies.html" onclick="closeNavBar()">MY RECIPIES</a>
       <a class="navBarItem contact" href="#contact" onclick="closeNavBar()">CONTACT</a>
       </div>
       <div class="menuButton" onclick="toggleNavBar()">
@@ -44,25 +45,9 @@
   </div>
 
   <!-- LandingPage -->
-  <div class="landingPage">
-    <h1>Landing Page</h1>
+  <div class="recipiesPage">
+    <h1>Recipies Page</h1>
     <p>Plantilla super basica de landing page (responsiva)</p>
-  </div>
-  <div class="landingPage" id="about">
-    <h1>About</h1>
-    <p>Somos...</p>
-  </div>
-  <div class="landingPage" id="team">
-    <h1>Team</h1>
-    <p>Somos...</p>
-  </div>
-  <div class="landingPage" id="other">
-    <h1>Other</h1>
-    <p>Somos...</p>
-  </div>
-  <div class="landingPage" id="contact">
-    <h1>Contact us</h1>
-    <p>Somos...</p>
   </div>
 </body>
 </html>
