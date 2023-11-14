@@ -6,25 +6,17 @@ This project provides a simple and basic template for a responsive landing page,
 
 - [Demo](#demo)
 - [Features](#features)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contribution](#contribution)
 - [License](#license)
 
-## Demo
+## Demo <a id="demo"></a>
 
 You can view a live demo of the template [here](#).
 
-## Features
+## Features <a id="features"></a>
 
 - Responsive design to adapt to different screen sizes.
 - Header section with smooth navigation.
 - Presentation section with a call to action.
 - Footer with contact information and social media links.
 
-## Usage
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/AnaEstrada-05/Responsive-Landing-Page.git
+## License <a id="license"></a>
