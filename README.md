@@ -27,4 +27,4 @@ You can view a live demo of the template [here](#).
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/anaestrada-05/responsive-landing-page.git
+   git clone https://github.com/AnaEstrada-05/Responsive-Landing-Page.git
